@@ -1,0 +1,23 @@
+.task-form {
+  margin-bottom: 32px;
+}
+
+.task-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid rgb(95, 95, 95);
+  outline: none;
+  width: 320px;
+  background: transparent;
+}
+
+.task-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(90deg, rgb(95, 95, 95) 0%, rgb(49, 49, 49) 100%);
+  color: #fff;
+  text-transform: capitalize;
+}

@@ -1,0 +1,25 @@
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.complete {
+  opacity: 0.5;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+.remove-task {
+  margin-right: 5px;
+  color: black;
+}

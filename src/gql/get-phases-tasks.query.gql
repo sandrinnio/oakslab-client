@@ -1,0 +1,13 @@
+query getPhasesTasks {
+  getPhasesTasks {
+    id
+    title
+    allTasksCompleted
+    isDisabled
+    tasks {
+      id
+      text
+      isDone
+    }
+  }
+}

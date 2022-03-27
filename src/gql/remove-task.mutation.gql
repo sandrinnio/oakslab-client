@@ -1,0 +1,3 @@
+mutation removeTask($record: RemoveTaskDto!) {
+  removeTask(record: $record)
+}

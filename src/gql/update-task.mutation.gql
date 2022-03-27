@@ -1,0 +1,7 @@
+mutation updateTask($record: UpdateTaskDto!) {
+  updateTask(record: $record) {
+    id
+    text
+    isDone
+  }
+}
